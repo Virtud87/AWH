@@ -51,7 +51,7 @@ a {
 }
 
 .link {
-  color: var(--color-accent);
+  color: var(--color-primary);
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: bold;
@@ -60,5 +60,30 @@ a {
 @media screen and (min-width: 1024px) {
   .link {
     font-size: 3rem;
+  }
+}
+
+/* Buttons */
+.btn {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 2rem 3rem;
+  border: 0;
+  border-radius: 40px;
+}
+
+.btn--accent {
+  background: var(--color-accent);
+}
+
+.btn--accent:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 2.3rem;
+    padding: 2rem 5rem;
   }
 }
