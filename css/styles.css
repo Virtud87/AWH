@@ -133,17 +133,6 @@ a {
   margin-top: 3rem;
 }
 
-@media screen and (min-width: 500px) and (orientation: landscape) {
-  #home {
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-  }
-
-  #practice {
-    margin-top: 4rem;
-  }
-}
-
 /* Navigation Bar */
 .nav {
   background-color: var(--color-primary);
@@ -202,7 +191,7 @@ img {
   margin-bottom: 2rem;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 700px) and (orientation: landscape) {
   .hero {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
