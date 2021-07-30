@@ -138,6 +138,10 @@ a {
     margin-top: 1rem;
     margin-bottom: 3rem;
   }
+
+  #practice {
+    margin-top: 4rem;
+  }
 }
 
 /* Navigation Bar */
