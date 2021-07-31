@@ -191,6 +191,7 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+    margin-top: 1.5rem;
   }
 }
 
@@ -214,6 +215,6 @@ body__p:nth-child(3) {
 
 @media screen and (min-width: 500px) and (orientation: landscape) {
   #practice {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 }
