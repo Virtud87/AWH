@@ -232,6 +232,6 @@ body__p:nth-child(3) {
 
 @media screen and (min-width: 380px) and (orientation: landscape) {
   #practice {
-    margin-top: 0;
+    margin-top: 1rem;
   }
 }
